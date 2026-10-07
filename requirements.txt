@@ -1,0 +1,23 @@
+# ==============================================================================
+# Requirements for Online Exam Seating & Invigilation Planner (Member 3 Backend)
+# Teachers College Examination System
+# ==============================================================================
+
+# Flask Core Framework & WSGI
+Flask==3.0.3
+Werkzeug==3.0.3
+
+# Database & ORM
+Flask-SQLAlchemy==3.1.1
+SQLAlchemy==2.0.35
+Flask-Migrate==4.0.7
+psycopg2-binary==2.9.9
+
+# Authentication & Session Security
+Flask-Login==0.6.3
+
+# Environment Variables Configuration
+python-dotenv==1.0.1
+
+# Automated Testing Framework
+pytest==8.3.3
